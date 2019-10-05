@@ -1,9 +1,8 @@
 SSID    = "SEACLIFF"
 APPWD   = "272098117"
-CMDFILE = "ping.lua"   -- File that is executed after connection
+CMDFILE = "ping.lua"   -- File is run on connection
 
---editing on github, yay!
---it was the right file too!
+--editing on github, yay! it was the right file too!
 
 wifiTrys     = 15     -- Counter of trys to connect to wifi
 NUMWIFITRYS  = 200    -- Maximum number of WIFI Testings while waiting for connection
