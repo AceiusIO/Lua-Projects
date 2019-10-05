@@ -1,9 +1,15 @@
-SSID    = "SEACLIFF"
-APPWD   = "272098117"
+SSID    = "SSID"
+APPWD   = "Password"
 CMDFILE = "ping.lua"   -- File that is executed after connection
 
---editing on github, yay!
---it was the right file too!
+--[[
+Comments:
+Edting on github, yay!
+It was the right file too!
+-----------------------------
+Notes:
+A smaller version of this file can be found at the branch NodeMCU-PCB-1
+]]--
 
 wifiTrys     = 15     -- Counter of trys to connect to wifi
 NUMWIFITRYS  = 200    -- Maximum number of WIFI Testings while waiting for connection
