@@ -37,7 +37,7 @@ print("Starting Adafruit Libary...")print("Starting ANE archnemesis 0.0.1 A ")
 Import_archnemesis(5)
 wait(1)
 print("Checking if conected $tstat A%)
-
+ 
 -- Lets see if we are already connected by getting the IP
 ipAddr = wifi.sta.getip()
 if ( ( ipAddr == nil ) or  ( ipAddr == "0.0.0.0" ) or ( ipAddr == "127.0.1.1" ) then
