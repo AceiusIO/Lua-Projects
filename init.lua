@@ -1,5 +1,5 @@
-SSID    = "SEACLIFF"
-APPWD   = "272098117"
+SSID    = "NetworkName"
+APPWD   = "Password"
 CMDFILE = "ping.lua"   -- File is run on connection
 
 --editing on github, yay! it was the right file too!
