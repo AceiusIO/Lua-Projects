@@ -1,0 +1,11 @@
+--/@bully-man\--
+Numb1 = 6
+Numb2 = 5
+---------------------------
+
+function add(X,Y)
+  NumbZ = X+Y
+  Print (numbz)
+end
+
+add(6,5)
