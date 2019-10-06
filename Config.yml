@@ -1,0 +1,2 @@
+- name: Discord Notify
+  uses: appleboy/discord-action@0.0.2
