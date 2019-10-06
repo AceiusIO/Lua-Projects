@@ -1,4 +1,4 @@
---@Bully-Man--
+--/Made by: @Bully-Man\--
 function p(X)
   print(X)
 end
