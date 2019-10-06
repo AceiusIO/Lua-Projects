@@ -1,4 +1,5 @@
-Hello there!
+--Hello there!
+--This is a comment
 
 name = "archmantella13" --Creats a string
 
@@ -11,4 +12,4 @@ end
 --Print Commands:
 print("Hello"..name..) -- Puts Hello archmantella13 on the termanial
 warn("Warning") -- Prints in a yellow font
-error("Error") -- Prints in a red font with ERROR: text. Example: ERROR: error
+error("D:") -- Prints in a red font with ERROR: at the start. Example: ERROR: D:
