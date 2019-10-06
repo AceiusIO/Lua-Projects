@@ -2,8 +2,6 @@ SSID    = "NetworkName"
 APPWD   = "Password"
 CMDFILE = "ping.lua"   -- File is run on connection
 
---editing on github, yay! it was the right file too!
-
 wifiTrys     = 15     -- Counter of trys to connect to wifi
 NUMWIFITRYS  = 200    -- Maximum number of WIFI Testings while waiting for connection
 
@@ -33,7 +31,8 @@ function checkWIFI()
 end
 
 print("Starting up!")
-print("Starting Adafruit Libary...")print("Starting ANE archnemesis 0.0.1 A ")
+print("Starting Adafruit Libary...")
+print("Starting ANE archnemesis 0.0.1 A ")
 Import_archnemesis(5)
 wait(1)
 print("Checking if conected $tstat A%)
@@ -49,6 +48,7 @@ if ( ( ipAddr == nil ) or  ( ipAddr == "0.0.0.0" ) or ( ipAddr == "127.0.1.1" ) 
   error("$tstat wifi =~ nil"
   print("Waiting for connection")
   tmr.alarm( 0 , 2500 , 0 , checkWIFI )
+  --w = "We gots dat 404 error"
 else
  print("return $tstat: Wifi Connect!")
  -- We are connected, so just run the launch code.
