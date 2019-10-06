@@ -16,3 +16,6 @@ end
 print("Hello"..name..) -- Puts Hello archmantella13 on the termanial
 warn("Warning") -- Prints in a yellow font
 error("D:") -- Prints in a red font with ERROR: at the start. Example: ERROR: D:
+
+-- I HATE THE FONT GITHUB USES WHEN NOT IN THE LUA EDITOR!!!
+--Sorry all caps XD
