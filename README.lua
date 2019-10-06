@@ -1,7 +1,10 @@
 --Hello there!
 --This is a comment
 
-name = "archmantella13" --Creats a string
+name = "archmantella13" --Creates a string varuble
+number = 0 --Creates a number varuble
+bool = true --Creates a boolian value
+mylist = {"String",0,true) --Creates a list with stuff inside
 
 dofile("Filename.Fileappend") --Will run the file named this in the running files folder
 
